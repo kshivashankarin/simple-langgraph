@@ -61,16 +61,7 @@ The Human Resources department will maintain accurate records of employee leave 
 Employees must comply with this policy and follow all leave application procedures. The company reserves the right to amend this policy to meet business needs and legal requirements.
 
 ### Sample Leave Entitlement Table
-
-| Leave Type        | Annual Entitlement           |
-| ----------------- | ---------------------------- |
-| Annual Leave      | 18 Days                      |
-| Sick Leave        | 12 Days                      |
-| Casual Leave      | 6 Days                       |
-| Maternity Leave   | As per law                   |
-| Paternity Leave   | 5 Days                       |
-| Bereavement Leave | 3 Days                       |
-| Unpaid Leave      | Management Approval Required |
+The annual leave entitlement is 18 days, while employees are entitled to 12 days of sick leave and 6 days of casual leave per year. Maternity leave is provided in accordance with applicable laws. Employees are also eligible for 5 days of paternity leave and 3 days of bereavement leave. Any unpaid leave may be granted subject to management approval.
 
 **Approved By:** ____________________
 
