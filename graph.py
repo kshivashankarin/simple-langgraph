@@ -4,6 +4,10 @@ from langgraph.graph import (
    END
 )
 
+
+import sqlite3
+from langgraph.checkpoint.sqlite import SqliteSaver
+
 from state import GraphState
 
 from agents.decision_maker import decision_maker
@@ -73,4 +77,14 @@ graph.add_edge(
    END
 )
 
-app = graph.compile()
+
+conn = sqlite3.connect(
+    "checkpoints.sqlite",
+    check_same_thread=False
+)
+
+memory = SqliteSaver(conn)
+
+app = graph.compile(
+    checkpointer=memory
+)
