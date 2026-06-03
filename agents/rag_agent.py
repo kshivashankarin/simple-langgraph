@@ -12,7 +12,7 @@ INDEX_NAME = os.getenv("PINECONE_INDEX_NAME")
 
 def retrieve_relevant_doc_from_rag(state):
 
-   question = state["user_question"]
+   question = state.get("standalone_question", state["user_question"])
 
    embeddings = OpenAIEmbeddings(
        model="text-embedding-3-small"

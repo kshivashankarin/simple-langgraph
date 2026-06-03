@@ -8,7 +8,7 @@ DB_PATH = "db/company.db"
 
 def generate_response_from_db(state):
 
-   question = state["user_question"]
+   question = state.get("standalone_question", state["user_question"])
 
    schema = get_database_schema(DB_PATH)
 
